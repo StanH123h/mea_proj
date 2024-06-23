@@ -4,6 +4,7 @@ import {useEffect, useState} from "react";
 import FilterBar from "@/app/components/selector/FilterBar.client";
 import Cases from "@/app/components/selector/Cases.client";
 import "./page.scss"
+import {Slideshow} from "@/app/components/slideshow/slideshow";
 function Selector() {
     const [type, setType] = useState('all');
     const [ageGroup, setAgeGroup] = useState('all');
@@ -63,6 +64,7 @@ export default function CasePage(){
         <div className={"case-page"}>
         <NavBar location={"intro"}/>
         <Selector/>
+            <Slideshow/>
         </div>
     )
 }
