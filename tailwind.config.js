@@ -19,6 +19,6 @@ module.exports = {
     preflight: false,
   },
   darkMode: "class",
-  plugins: [nextui()]
+
 
 };
