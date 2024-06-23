@@ -2,7 +2,7 @@
 import FilterBar from "@/app/dashboard/FilterBar.client";
 import Cases from "@/app/dashboard/Cases.client";
 import {useEffect, useState} from "react";
-export default function CasePage() {
+export default function Page() {
     const [type, setType] = useState('all');
     const [ageGroup, setAgeGroup] = useState('all');
     const [data,setData]=useState()
