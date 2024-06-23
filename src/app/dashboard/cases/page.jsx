@@ -64,7 +64,6 @@ export default function CasePage(){
         <div className={"case-page"}>
         <NavBar location={"intro"}/>
         <Selector/>
-            <Slideshow/>
         </div>
     )
 }
