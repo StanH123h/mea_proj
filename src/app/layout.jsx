@@ -43,9 +43,9 @@ const HarmonyOS = localFont({
 const RootLayout = ({ children }) => {
   return (
     <html lang="en" className={HarmonyOS.className}>
-    <body>
-    <AntdRegistry>{children}</AntdRegistry>
-    </body>
+      <body>
+        <AntdRegistry>{children}</AntdRegistry>
+      </body>
     </html>
   );
 };
