@@ -1,4 +1,4 @@
-import {Carousel} from "antd";
+import {Button, Carousel} from "antd";
 import "./slideshow.scss"
 export const Slideshow=({cases=[
     {
@@ -30,6 +30,7 @@ return(
                         <div className="subtitle">
                             {item.subtitle}
                         </div>
+                        <Button type={"primary"} className={"single-case-textarea-button"}>查看案例</Button>
                     </div>
                     <img src={item.image} alt={item.image}/>
                 </div>
