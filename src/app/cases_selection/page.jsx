@@ -1,8 +1,8 @@
 "use client"
-import {NavBar} from "@/app/components/navbar/navbar";
+import {NavBar} from "@/components/navbar/navbar";
 import {useEffect, useState} from "react";
-import FilterBar from "@/app/components/selector/FilterBar.client";
-import Cases from "@/app/components/selector/Cases.client";
+import FilterBar from "@/components/selector/FilterBar.client";
+import Cases from "@/components/selector/Cases.client";
 import "./page.scss"
 
 function Selector() {
@@ -61,7 +61,7 @@ function Selector() {
 
 export default function CasePage(){
     return(
-        <div className={"case-page"}>
+        <div className={"case-selection-page"}>
         <NavBar location={"intro"}/>
         <Selector/>
         </div>
